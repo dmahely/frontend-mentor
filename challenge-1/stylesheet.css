@@ -1,0 +1,25 @@
+body {
+    background-color: hsl(214, 64%, 98%);
+}
+
+#try-top-btn {
+    padding: 10px;
+    background-color: white;
+    color: hsl(265, 100%, 66%);
+    width: 150px;
+    float: right;
+    margin: 20px;
+    font: 16px 'Poppins', sans-serif;
+    -webkit-box-shadow: -15px 13px 36px -15px rgba(107,106,107,0.69);
+    -moz-box-shadow: -15px 13px 36px -15px rgba(107,106,107,0.69);
+    box-shadow: -15px 13px 36px -15px rgba(107,106,107,0.69);
+}
+
+#pink-gradient {
+    width: 500px;
+    height: 500px;
+    transform: rotate(45deg);
+    background: linear-gradient(90deg, rgba(255,82,191,1) 35%, rgba(154,82,255,1) 100%);
+    border-radius: 10%;
+    z-index: -1;
+}

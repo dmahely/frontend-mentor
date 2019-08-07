@@ -13,11 +13,11 @@ The main decorative element in the background of the intro section is a gradient
 
 ### Primary
 
-- Pink: hsl(322, 100%, 66%)
+- Pink: hsl(322, 100%, 66%) => FF52BF
 
 ### Secondary
 
-- Violet: hsl(265, 100%, 66%)
+- Violet: hsl(265, 100%, 66%) => 9A52FF
 
 ### Neutral
 
