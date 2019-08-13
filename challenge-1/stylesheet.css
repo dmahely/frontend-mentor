@@ -7,6 +7,13 @@ body {
     margin: 20px;
 }
 
+h1 {
+    font: 28px 'Poppins', sans-serif;
+    font-weight: 900;
+    margin: 0 30px;
+    text-align: center;
+}
+
 #try-top-btn {
     padding: 10px;
     background-color: white;
@@ -47,14 +54,15 @@ body {
     overflow: hidden;
 }
 
-#img-wrapper {
+.img-wrapper {
     margin-top: 20px;
-    max-width: 50%;
+    max-width: 75%;
     margin: 0 auto;
     margin-top: 70px;
+    margin-bottom: 100px;
 }
 
-#mockup {
+.mockup {
     width: 100%;
     height: auto;
 }
@@ -65,15 +73,19 @@ body {
     text-align: center;
 }
 
+#features-div {
+    margin-top: 300px;
+}
+
 .description {
-    width: 40vw;
+    width: 80vmin;
     text-align: center;
     margin: 0 auto;
-    color: #3c3c3c;
+    color: #7e7a7a;
     font: 16px 'Open Sans', sans-serif;
 }
 
-#start-btn {
+.start-btn {
     background-color: #FF52BF;
     padding: 15px;
     color: white;
@@ -87,4 +99,24 @@ body {
     margin: 0 auto;
     margin-top: 20px;
     display: block;
+}
+
+#trial {
+    background-color: #FFF;
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    padding: 20px 0;
+}
+
+ul {
+    list-style-type: none;
+    font: 16px 'Open Sans', sans-serif;
+}
+
+#footer {
+    margin-top: 20px;
+    background-color: hsl(192, 100%, 9%);
+    color: white;
 }
